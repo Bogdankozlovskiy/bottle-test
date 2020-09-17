@@ -6,7 +6,7 @@ app = Bottle()
 
 @app.get("/")
 def hello():
-	return "<h1>hello world</h1>"
+	return "<h1><i>hello world!!!</i></h1>"
 
 
 @app.get("/movies")
