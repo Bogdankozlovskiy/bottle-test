@@ -11,4 +11,4 @@ def hello():
 
 @app.get("/movies")
 def movies():
-	return "a lot movies"
+	return "<h1><i>a lot movies</i></h1>"
